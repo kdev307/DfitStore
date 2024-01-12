@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="images/logo (2).png" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="images/logo (2).png" />
+        <link rel="manifest" href="manifest.webmanifest" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Edu+NSW+ACT+Foundation:wght@500;700;800;900&family=Poppins:wght@400;600;700&family=Rubik:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" type="text/css" href="stylesheets/general.css" />
+        <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+        <link rel="stylesheet" type="text/css" href="stylesheets/media-queries.css" />
+
+        <title>fitStore- Fitness & Fashion</title>
+    </head>
+
+    <body>
+        <header class="header">
+            <a href="index.html">
+                <img src="images/logo (1).png" alt="D'fitKlub Logo" class="logo" id="home" />
+            </a>
+            <h1>Welcome to fitStore</h1>
+            <nav class="profile-nav">
+                <ul class="main-nav-user-list">
+                    <li>
+                        <div class="main-nav-link profile-btn">
+                            <ion-icon name="person-outline"></ion-icon>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="main-nav-link" target="_blank">
+                            <ion-icon name="cart-outline"></ion-icon>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="product-filter">
+                <!-- <div class="product-filter"> -->
+                <ul class="filter-btn">
+                    <li>
+                        <button class="filter-item" data-filter="accessories">Accessories</button>
+                    </li>
+                    <li><button class="filter-item" data-filter="bags">Bags</button></li>
+                    <li><button class="filter-item" data-filter="balls">Balls</button></li>
+                    <li><button class="filter-item" data-filter="coupons">Coupons</button></li>
+                    <li>
+                        <button class="filter-item" data-filter="equipments">Equipments</button>
+                    </li>
+                    <li><button class="filter-item" data-filter="men">Men</button></li>
+                    <li><button class="filter-item" data-filter="shoes">Shoes</button></li>
+                    <li>
+                        <button class="filter-item" data-filter="sports">
+                            Sports<ion-icon
+                                name="caret-down-outline"
+                                class="toggle-focus"
+                            ></ion-icon>
+                        </button>
+                    </li>
+                    <ul class="dropdown-btn">
+                        <li>
+                            <button class="filter-item" data-filter="sports-bad">Badminton</button>
+                        </li>
+                        <li>
+                            <button class="filter-item" data-filter="sports-bskt">
+                                Basketball
+                            </button>
+                        </li>
+                        <li>
+                            <button class="filter-item" data-filter="sports-cric">Cricket</button>
+                        </li>
+                        <li>
+                            <button class="filter-item" data-filter="sports-foot">Football</button>
+                        </li>
+                    </ul>
+                    <li><button class="filter-item" data-filter="women">Women</button></li>
+                    <button class="filter-item active filter-all" data-filter="all" id="filter-all">
+                        Clear Filter
+                    </button>
+                </ul>
+                <ul class="srch">
+                    <input type="text" placeholder="  Search Products..." /><button type="submit">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </button>
+                </ul>
+                <!-- </div> -->
+            </section>
+
+            <!-- PRODUCT CARD LIST -->
+            <section class="product">
+                <!-- ACCESSORIES -->
+                <!-- Product Card  -->
+                <!-- Accesories 1 -->
+                <div class="product-item accessories bags">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>5.0 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/acc-duff-bag1.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Accesories 2 -->
+                <div class="product-item accessories bags">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>5.0 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/acc-duff-bag2.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Accesories 3 -->
+                <div class="product-item accessories">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.5 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/acc-glove.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Accesories 4 -->
+                <div class="product-item accessories">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>5.0 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/acc-mask.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Accesories 5 -->
+                <div class="product-item accessories">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>5.0 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/acc-mat.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- COUPONS -->
+                <!-- Product Card  -->
+                <!-- Coupon 1 -->
+                <div class="product-item coupons">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>5.0 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/fp-pro.png" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>fitPass PRO</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price">$15</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Coupon 2 -->
+                <div class="product-item coupons">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>5.0 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/fp-elite.png" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>fitPass ELITE</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price">$30</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Coupon 3 -->
+                <div class="product-item coupons">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>5.0 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/fp-home.png" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>fitPass HOME</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price">$2.5</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- EQUIPMENTS -->
+                <!-- Product Card  -->
+                <!-- Equipment 1 -->
+                <div class="product-item equipments">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.7 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/equip-20-db.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Equipment 2 -->
+                <div class="product-item equipments">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.8 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/equip-7.5-db.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Equipment 3 -->
+                <div class="product-item equipments">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.8 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/equip-barbell.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Equipment 4 -->
+                <div class="product-item equipments">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.8 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/equip-fit-grip.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Equipment 5 -->
+                <div class="product-item equipments">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.8 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img
+                                src="images/shop/equip-jump-rope1.webp"
+                                alt="Image Not Supported"
+                            />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Equipment 6 -->
+                <div class="product-item equipments">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.8 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img
+                                src="images/shop/equip-jump-rope2.webp"
+                                alt="Image Not Supported"
+                            />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Equipment 7 -->
+                <div class="product-item equipments">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.5 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/equip-punch-bag.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Equipment 8 -->
+                <div class="product-item equipments">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.5 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/equip-push-bar.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- MEN ATHLEISURE -->
+                <!-- Product Card  -->
+                <!-- Men 1 -->
+                <div class="product-item men">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.6 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/mn-polot.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Men 2 -->
+                <div class="product-item men shoes">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.8 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/mn-shoes1.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Men 3 -->
+                <div class="product-item men shoes">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.6 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/mn-shoes2.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Men 4 -->
+                <div class="product-item men shoes">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.6 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/mn-shoes3.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Men 5 -->
+                <div class="product-item men">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.6 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/mn-shrts1.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Men 6 -->
+                <div class="product-item men">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.9 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/mn-shrts2.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Men 7 -->
+                <div class="product-item men">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.5 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/mn-t.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Men 8 -->
+                <div class="product-item men">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.9 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/mn-vst1.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Men 9 -->
+                <div class="product-item men">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.6 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/mn-vst2.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- WOMEN ATHLEISURE -->
+                <!-- Product Card  -->
+                <!-- Women 1 -->
+                <div class="product-item women">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.6 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/wmn-coord.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Women 2 -->
+                <div class="product-item women">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.5 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/wmn-hood.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Women 3 -->
+                <div class="product-item women shoes">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.5 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/wmn-shoes1.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Women 4 -->
+                <div class="product-item women shoes">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.7 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/wmn-shoes2.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Women 5 -->
+                <div class="product-item women">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.7 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/wmn-t1.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Women 6 -->
+                <div class="product-item women">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>5.0 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/wmn-t2.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Women 7 -->
+                <div class="product-item women">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.9 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/wmn-t3.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- SPORTS -->
+                <!-- BADMINTON -->
+                <!-- Product Card  -->
+                <!-- Sports 1 -->
+                <div class="product-item sports bags sports-bad">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.9 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/sp-bad-kit.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Sports 2 -->
+                <div class="product-item sports sports-bad">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.5 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/sp-bad-racquet.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Sports 3 -->
+                <div class="product-item sports shoes sports-bad">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>5.0 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/sp-bad-shoes.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Sports 4 -->
+                <div class="product-item sports balls sports-bad">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>5.0 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/sp-bad-shuttle.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Sports 5 -->
+                <div class="product-item sports balls sports-bskt">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>5.0 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/sp-basket-ball.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Sports 6 -->
+                <div class="product-item sports shoes sports-bskt">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.5 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/sp-basket-shoes.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Sports 7 -->
+                <div class="product-item sports balls sports-cric">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.6 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/sp-cric-ball1.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Sports 8 -->
+                <div class="product-item sports balls sports-cric">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.6 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/sp-cric-ball2.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Sports 9 -->
+                <div class="product-item sports sports-cric">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.7 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/sp-cric-bat1.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Sports 10 -->
+                <div class="product-item sports sports-cric">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.8 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/sp-cric-bat2.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Sports 11 -->
+                <div class="product-item sports bags sports-cric">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.7 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/sp-cric-kit.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Sports 12 -->
+                <div class="product-item sports shoes sports-cric">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.5 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/sp-cric-shoes.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Sports 13 -->
+                <div class="product-item sports sports-cric">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.6 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img
+                                src="images/shop/sp-cric-wk-gloves.webp"
+                                alt="Image Not Supported"
+                            />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Sports 14 -->
+                <div class="product-item sports balls sports-foot">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.9 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/sp-foot-ball.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Sports 15 -->
+                <div class="product-item sports sports-foot">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.7 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/sp-foot-gloves.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Sports 16 -->
+                <div class="product-item sports sports-foot">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.7 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/sp-foot-guard.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+
+                <!-- Product Card  -->
+                <!-- Sports 17 -->
+                <div class="product-item sports shoes sports-foot">
+                    <div class="product-card">
+                        <div class="rating">
+                            <p>4.7 &nbsp;<ion-icon class="rate-icon" name="star"></ion-icon></p>
+                        </div>
+                        <div class="pro-img">
+                            <img src="images/shop/sp-foot-shoes.webp" alt="Image Not Supported" />
+                        </div>
+                        <div class="pro-details">
+                            <h3>Product Title</h3>
+                            <p>Product Description......</p>
+                        </div>
+                        <div class="pro-others">
+                            <div class="pro-price"><small>$100</small>$60</div>
+                            <button class="btn btn--form">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card End -->
+            </section>
+        </main>
+        <footer class="footer" id="footer">
+            <div class="grid--footer">
+                <div class="address-col">
+                    <address class="contacts grid--3--cols">
+                        <div>
+                            <figure class="location">
+                                <ion-icon class="contacts-icon" name="location-outline"></ion-icon>
+                                <figcaption>
+                                    <p>Sovereign Tower, CA 94107</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <figure class="mobile">
+                            <ion-icon class="contacts-icon" name="call-outline"></ion-icon>
+                            <figcaption>
+                                <a class="footer-link" href="tel:415-201-6370">415-201-6370</a>
+                            </figcaption>
+                        </figure>
+                        <figure class="mail">
+                            <ion-icon class="contacts-icon" name="mail-outline"></ion-icon>
+                            <figcaption>
+                                <a class="footer-link" href="malito:help@fitklub.com"
+                                    >help@fitklub.com</a
+                                >
+                            </figcaption>
+                        </figure>
+                    </address>
+                </div>
+                <div class="follow grid--5--cols">
+                    <a href="#">
+                        <ion-icon class="follow-icon" name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon class="follow-icon" name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon class="follow-icon" name="logo-linkedin"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon class="follow-icon" name="logo-twitter"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon class="follow-icon" name="logo-youtube"></ion-icon>
+                    </a>
+                </div>
+                <a class="" href="#">
+                    <img src="images/logo (1).png" alt="D'fitKlub Logo" class="footer-logo logo" />
+                </a>
+                <div class="copy">
+                    <p class="follow-us-text">follow us</p>
+                    <br />
+                    <br />
+                    <p class="copyright">
+                        Copyright © <span class="year">2023</span> by D-fitKlub.Inc. All rights are
+                        reserved.
+                    </p>
+                </div>
+            </div>
+            <div class="credit">Created with <span>&hearts;</span> by &dash; KD</div>
+        </footer>
+    </body>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script
+        type="module"
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <script
+        defer
+        src="// https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+
+    <script src="javascript/storeFilter.js"></script>
+</html>
