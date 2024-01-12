@@ -17,6 +17,25 @@ html {
     /* scroll-behavior: smooth; */
 }
 
+body {
+    font-weight: 600;
+    font-size: 1.5rem;
+    background-color: #d4d4d4;
+    font-family: "Poppins", sans-serif;
+    background-image: linear-gradient(to right, rgba(85, 85, 85, 0.7), rgba(69, 69, 69, 0.7)),
+        url("/images/bg.jpg");
+    background-repeat: round;
+}
+
+main {
+    padding-top: 5rem;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
 .sub-heading {
     font-size: 3.2rem;
     padding-left: 100rem;
@@ -25,26 +44,6 @@ html {
     text-transform: uppercase;
     font-weight: 600;
     color: #787878ad;
-}
-
-/* For Carousel */
-
-.carousel {
-    display: flex;
-    /* background-size: cover; */
-}
-
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    filter: brightness(70%);
-}
-
-.carousel-item {
-    height: 60rem;
-    width: 100%;
-    position: relative;
 }
 
 /* For Display -> GRID */
@@ -56,24 +55,9 @@ html {
     /* margin-bottom: 9.6rem; */
 }
 
-.grid--2--cols {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.grid--3--cols {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
 .grid--4--cols {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-}
-
-.grid--5--cols {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
 }
 
 /* For Lists */

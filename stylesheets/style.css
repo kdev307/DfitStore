@@ -70,20 +70,6 @@
     height: 9.6rem;
 }
 
-body {
-    font-weight: 600;
-    font-size: 1.5rem;
-    background-color: #d4d4d4;
-    font-family: "Poppins", sans-serif;
-    background-image: linear-gradient(to right, rgba(85, 85, 85, 0.7), rgba(69, 69, 69, 0.7)),
-        url("/images/bg.jpg");
-    background-repeat: round;
-}
-
-main {
-    padding-top: 5rem;
-}
-
 /*************************************/
 /* PRODUCT FILTER NAVIGATION */
 /*************************************/
