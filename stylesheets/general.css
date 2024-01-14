@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    font-weight: 600;
+    /* font-weight: 600; */
     font-size: 1.5rem;
     background-color: #d4d4d4;
     font-family: "Poppins", sans-serif;
@@ -55,9 +55,24 @@ ol {
     /* margin-bottom: 9.6rem; */
 }
 
+.grid--2--cols {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3--cols {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .grid--4--cols {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5--cols {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
 }
 
 /* For Lists */
