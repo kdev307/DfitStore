@@ -74,6 +74,10 @@
 /* PRODUCT FILTER NAVIGATION */
 /*************************************/
 
+/*************************************/
+/* PRODUCT FILTER NAVIGATION */
+/*************************************/
+
 .product-filter {
     margin-bottom: 4.8rem;
     display: flex;
@@ -131,6 +135,7 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    border: 2px solid #fff;
 }
 
 .dropdown-btn button {
@@ -148,9 +153,12 @@
     position: relative;
 }
 
-*:focus-within > .dropdown-btn {
+/* .filter-btn > li:nth-child(8):focus-within > .dropdown-btn {
     display: flex;
-}
+} */
+/* *:focus-within > .dropdown-btn {
+    display: flex;
+} */
 
 .filter-item.active {
     color: #ffffff;
@@ -192,7 +200,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 3.2rem;
-    padding-bottom: 10.8rem;
+    margin-bottom: 9.6rem;
 }
 
 /* .product-item {
@@ -364,6 +372,42 @@
 
 .product-item.hide {
     display: none;
+}
+
+@media only screen and (max-width: 425px) {
+    /* Smartphone view: 1 tile */
+    .product-item {
+        width: 100%;
+        align-items: center;
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 426px) {
+    /* Tablet view: 2 tiles */
+    .product-item {
+        width: 50%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    /* Small desktop / ipad view: 3 tiles */
+    .product-item {
+        width: 35%;
+        align-items: center;
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1024px) {
+    /* Medium desktop: 4 tiles */
+    .product-item {
+        width: 25%;
+        align-items: center;
+        display: flex;
+    }
 }
 
 /*************************************/
